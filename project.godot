@@ -14,6 +14,10 @@ config/name="Projeto 1 - Metroidvania"
 config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://assets/sprites/icon.svg"
 
+[autoload]
+
+SceneManager="*res://scripts/Global/SceneManager.gd"
+
 [rendering]
 
 renderer/rendering_method="mobile"

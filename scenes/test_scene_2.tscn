@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://ca86dvje6w8a7"]
+
+[ext_resource type="Script" path="res://scripts/test_scene_2.gd" id="1_bby0b"]
+[ext_resource type="Texture2D" uid="uid://b71qbno62r0yn" path="res://assets/sprites/comedia.png" id="2_4iebu"]
+
+[node name="test_scene2" type="Node2D"]
+script = ExtResource("1_bby0b")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 494.0
+offset_top = 201.0
+offset_right = 696.0
+offset_bottom = 281.0
+theme_override_colors/font_color = Color(0, 0.772549, 0, 1)
+theme_override_font_sizes/font_size = 122
+text = "SALA 2"
+
+[node name="Comedia" type="Sprite2D" parent="."]
+position = Vector2(277, 149)
+scale = Vector2(0.372727, 0.329404)
+texture = ExtResource("2_4iebu")
