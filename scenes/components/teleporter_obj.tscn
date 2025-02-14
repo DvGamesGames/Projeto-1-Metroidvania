@@ -3,10 +3,12 @@
 [ext_resource type="Script" path="res://scripts/teleporter_obj.gd" id="1_plj46"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fqch0"]
-size = Vector2(48, 16)
+size = Vector2(36, 160)
 
 [node name="TeleporterObj" type="Area2D"]
+collision_layer = 4
 script = ExtResource("1_plj46")
+metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_fqch0")

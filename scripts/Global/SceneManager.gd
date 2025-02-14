@@ -8,7 +8,7 @@ extends Node
 ## Como um script global, ele está presente no jogo em todos os momentos, constantemente.
 ## Mantenha isso em mente.
 
-var player: PackedScene = load("caminho/para/cena/do/jogador")
+var player: PackedScene = load("res://scenes/objs/player.tscn")
 var scene_folder_path: String = "res://scenes/"
 
 var current_player
